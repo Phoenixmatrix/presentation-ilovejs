@@ -3,14 +3,12 @@ import React from 'react';
 // Import Spectacle Core tags
 import { Slide, SlideSet, Image, Layout, Fill, Text, Fit } from 'spectacle';
 
-import { TitleHeading } from '../components';
-
+import { TitleHeading, TitleHeading2 } from '../components';
 import { hubspot } from '../assets';
-import TitleHeading2 from '../components/TitleHeading2';
 
 export default (
   <SlideSet>
-    <Slide transition={['zoom']} bgColor="primary">
+    <Slide>
       <TitleHeading>JavaScript</TitleHeading>
       <TitleHeading2>It's so bad, it's awesome!</TitleHeading2>
       <Layout>
@@ -40,6 +38,8 @@ export default (
         </Text>
       </Fit>
     </Slide>
-    <Slide transition={['zoom']} bgColor="primary" />
+    <Slide>
+      <TitleHeading>Let's start with some backstory</TitleHeading>
+    </Slide>
   </SlideSet>
 );
