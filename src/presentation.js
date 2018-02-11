@@ -10,8 +10,8 @@ import preloader from 'spectacle/lib/utils/preloader';
 
 import * as images from './assets';
 
-import Intro from './slides/intro';
-import Attributions from './slides/attributions';
+import Intro from './slides/Intro';
+import Attributions from './slides/Attributions';
 
 // Require CSS
 import 'normalize.css';
