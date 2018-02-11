@@ -10,8 +10,20 @@ import preloader from 'spectacle/lib/utils/preloader';
 
 import * as images from './assets';
 
-import Intro from './slides/intro';
-import Attributions from './slides/attributions';
+import Intro from './slides/Intro';
+import Attributions from './slides/Attributions';
+import BackwardCompatibility from './slides/BackwardCompatibility';
+import CannotHideIt from './slides/CannotHideIt';
+import Conclusion from './slides/Conclusion';
+import HonorableMention from './slides/HonorableMention';
+import Interpreted from './slides/Interpreted';
+import NoChoiceToUseIt from './slides/NoChoiceToUseIt';
+import NoStandardLibrary from './slides/NoStandardLibrary';
+import NoThreads from './slides/NoThreads';
+import RidiculousTypes from './slides/RidiculousTypes';
+import StyleBikeshedding from './slides/StyleBikeshedding';
+import WeirdClasses from './slides/WeirdClasses';
+import WeirdLanguage from './slides/WeirdLanguage';
 
 // Require CSS
 import 'normalize.css';
@@ -41,6 +53,18 @@ export default class Presentation extends React.Component {
         theme={theme}
       >
         {Intro}
+        {NoChoiceToUseIt}
+        {RidiculousTypes}
+        {WeirdLanguage}
+        {StyleBikeshedding}
+        {Interpreted}
+        {BackwardCompatibility}
+        {WeirdClasses}
+        {NoStandardLibrary}
+        {NoThreads}
+        {CannotHideIt}
+        {HonorableMention}
+        {Conclusion}
         {Attributions}
       </Deck>
     );
