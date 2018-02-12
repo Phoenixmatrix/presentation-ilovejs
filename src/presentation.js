@@ -54,8 +54,8 @@ export default class Presentation extends React.Component {
       >
         {Intro}
         {NoChoiceToUseIt}
-        {RidiculousTypes}
         {WeirdLanguage}
+        {RidiculousTypes}
         {StyleBikeshedding}
         {Interpreted}
         {BackwardCompatibility}
