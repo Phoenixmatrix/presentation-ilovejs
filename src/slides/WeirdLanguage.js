@@ -52,7 +52,6 @@ export default (
       <CodePane lang="javascript" source={manyfunctions} theme="dark" />
       <SubTitle>I implemented it twice</SubTitle>
     </Slide>
-    <CodePane />
     <Slide bgColor="alternate">
       <TitleHeading2>Result: We have ESLint</TitleHeading2>
     </Slide>
