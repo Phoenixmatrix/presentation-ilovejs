@@ -97,6 +97,14 @@ export default (
       license="CC BY 2.0"
       licenseLink="https://creativecommons.org/licenses/by/2.0/legalcode"
     />
+        <Attribution
+      name="Midge cat and computer"
+      author="dougwoods"
+      source="flickr"
+      link="https://flic.kr/p/TeqMG"
+      license="CC BY 2.0"
+      licenseLink="https://creativecommons.org/licenses/by/2.0/legalcode"
+    />
     <Text textSize="1em">Other images used in fair use</Text>
   </Slide>
 );

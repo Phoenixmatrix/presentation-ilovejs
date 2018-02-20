@@ -16,3 +16,7 @@ export { default as particles } from './particles.png';
 export { default as robot } from './robot.jpg';
 export { default as sharing } from './sharing.jpg';
 export { default as tinycat } from './tinycat.png';
+export { default as badtech } from './badtech.png';
+export { default as engineer } from './engineer.jpg';
+export { default as miracle } from './miracle.jpg';
+export { default as formula } from './formula.png';
