@@ -23,12 +23,16 @@ export default (
       <TitleHeading2>Result: FP to the masses</TitleHeading2>
     </Slide>
     <Slide>
-      <TitleHeading>Think Redux (even if you don't like it)</TitleHeading>
+      <TitleHeading>It's a gateway drug to FP</TitleHeading>
       <List>
+        <ListItem>Think Redux (even if you don't like it)</ListItem>
         <ListItem>Immutability</ListItem>
         <ListItem>More powerful type systems</ListItem>
-        <ListItem>It's a gateway drug</ListItem>
       </List>
+    </Slide>
+    <Slide>
+      <TitleHeading>Bonus: a great module system</TitleHeading>
+      <SubTitle>Much better than namespaces</SubTitle>
     </Slide>
   </SlideSet>
 );

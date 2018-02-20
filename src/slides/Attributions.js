@@ -97,7 +97,7 @@ export default (
       license="CC BY 2.0"
       licenseLink="https://creativecommons.org/licenses/by/2.0/legalcode"
     />
-        <Attribution
+    <Attribution
       name="Midge cat and computer"
       author="dougwoods"
       source="flickr"

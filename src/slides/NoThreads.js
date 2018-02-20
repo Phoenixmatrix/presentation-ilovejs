@@ -20,7 +20,6 @@ export default (
     </Slide>
     <Slide>
       <TitleHeading>More async than most</TitleHeading>
-      ,{' '}
       <List>
         <ListItem>Accessible async I/O</ListItem>
         <ListItem>Promises, Observables, etc</ListItem>

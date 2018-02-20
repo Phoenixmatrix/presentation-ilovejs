@@ -23,7 +23,7 @@ export default (
     <Slide>
       <TitleHeading>NPM is awesome</TitleHeading>
       <List>
-        <ListItem>We have Lodash, Ramda, etc</ListItem>
+        <ListItem>We have Lodash and more</ListItem>
         <ListItem>640,000~ packages</ListItem>
         <ListItem>Take only what you want</ListItem>
         <ListItem>What's wrong with leftpad?</ListItem>
