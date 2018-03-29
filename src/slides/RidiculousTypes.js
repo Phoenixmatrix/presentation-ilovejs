@@ -38,8 +38,18 @@ export default (
         theme="dark"
         textSize="30"
       />
-      <CodePane lang="javascript" source={'!![] // -> true'} theme="dark" textSize="30" />
-      <CodePane lang="javascript" source={equality} theme="dark" textSize="30" />
+      <CodePane
+        lang="javascript"
+        source={'!![] // -> true'}
+        theme="dark"
+        textSize="30"
+      />
+      <CodePane
+        lang="javascript"
+        source={equality}
+        theme="dark"
+        textSize="30"
+      />
     </Slide>
     <Slide bgColor="alternate">
       <TitleHeading2>Result: We have 2 great type systems</TitleHeading2>
