@@ -21,7 +21,7 @@ export default (
     </Slide>
     <Slide>
       <TitleHeading>How to make an alert dialog in JS</TitleHeading>
-      <CodePane lang="javascript" source={jsf} theme="dark" />
+      <CodePane lang="javascript" source={jsf} theme="dark" textSize="15" />
       <SubTitle>(Yes, it actually works)</SubTitle>
     </Slide>
     <Slide>
@@ -30,14 +30,16 @@ export default (
         lang="javascript"
         source={"!!'false' ==  !!'true' // -> true"}
         theme="dark"
+        textSize="30"
       />
       <CodePane
         lang="javascript"
         source={'NaN === NaN // -> false'}
         theme="dark"
+        textSize="30"
       />
-      <CodePane lang="javascript" source={'!![] // -> true'} theme="dark" />
-      <CodePane lang="javascript" source={equality} theme="dark" />
+      <CodePane lang="javascript" source={'!![] // -> true'} theme="dark" textSize="30" />
+      <CodePane lang="javascript" source={equality} theme="dark" textSize="30" />
     </Slide>
     <Slide bgColor="alternate">
       <TitleHeading2>Result: We have 2 great type systems</TitleHeading2>

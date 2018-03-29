@@ -44,12 +44,22 @@ export default (
     </Slide>
     <Slide>
       <TitleHeading>Who hasn't done this before?</TitleHeading>
-      <CodePane lang="javascript" textSize="40" source={duplicate} theme="dark" />
+      <CodePane
+        lang="javascript"
+        textSize="40"
+        source={duplicate}
+        theme="dark"
+      />
       <SubTitle>JavaScript thinks that's okay</SubTitle>
     </Slide>
     <Slide>
       <TitleHeading>My function is so good</TitleHeading>
-      <CodePane lang="javascript" textSize="40" source={manyfunctions} theme="dark" />
+      <CodePane
+        lang="javascript"
+        textSize="40"
+        source={manyfunctions}
+        theme="dark"
+      />
       <SubTitle>I implemented it twice</SubTitle>
     </Slide>
     <Slide bgColor="alternate">
