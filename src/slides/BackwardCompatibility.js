@@ -23,7 +23,7 @@ export default (
       <List>
         <ListItem>Your code won't break tomorrow</ListItem>
         <ListItem>JavaScript is a compile target</ListItem>
-        <ListItem>JavaScript engines are now super fast</ListItem>
+        <ListItem>The standard committee is transparent</ListItem>
       </List>
       <SubTitle>WebAssembly will change this, but we're not there yet</SubTitle>
     </Slide>

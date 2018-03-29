@@ -40,6 +40,7 @@ export default (
         <ListItem>CDN (Cloudflare workers)</ListItem>
         <ListItem>My TV (webOS)</ListItem>
         <ListItem>My editor (VSCode)</ListItem>
+        <ListItem>And it's pretty fast!</ListItem>
       </List>
     </Slide>
   </SlideSet>

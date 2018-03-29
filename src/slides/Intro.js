@@ -44,12 +44,16 @@ export default (
       <SubTitle>Why do I love JavaScript so much?</SubTitle>
     </Slide>
     <Slide>
-      <TitleHeading>Universal truth</TitleHeading>
+      <TitleHeading>The universal truth</TitleHeading>
       <Layout>
         <Fill>
           <Image src={formula} />
         </Fill>
       </Layout>
+    </Slide>
+    <Slide>
+      <TitleHeading>The top 10 reasons</TitleHeading>
+      <SubTitle>JavaScript is so bad, we made it awesome</SubTitle>
     </Slide>
     <Slide bgColor="alternate">
       <TitleHeading2>Let the countdown begin!</TitleHeading2>

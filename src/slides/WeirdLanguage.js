@@ -9,7 +9,9 @@ import SubTitle from '../components/SubTitle';
 const somevar = `foo = 1;
 foo = foo * 10;
 console.log(foo);
-var foo; // why would I need to declare my variables first?
+// why would I need to declare
+// my variables first?
+var foo;
 `;
 
 const duplicate = `var foo = {
@@ -27,8 +29,6 @@ const manyfunctions = `function foo() {
 function foo() {
   console.log('second');
 }
-
-// this is perfectly valid too
 `;
 
 export default (
@@ -39,17 +39,17 @@ export default (
     </Slide>
     <Slide>
       <TitleHeading>We all love us some var</TitleHeading>
-      <CodePane lang="javascript" source={somevar} theme="dark" />
+      <CodePane lang="javascript" source={somevar} textSize="40" theme="dark" />
       <SubTitle>Because JavaScript</SubTitle>
     </Slide>
     <Slide>
       <TitleHeading>Who hasn't done this before?</TitleHeading>
-      <CodePane lang="javascript" source={duplicate} theme="dark" />
+      <CodePane lang="javascript" textSize="40" source={duplicate} theme="dark" />
       <SubTitle>JavaScript thinks that's okay</SubTitle>
     </Slide>
     <Slide>
       <TitleHeading>My function is so good</TitleHeading>
-      <CodePane lang="javascript" source={manyfunctions} theme="dark" />
+      <CodePane lang="javascript" textSize="40" source={manyfunctions} theme="dark" />
       <SubTitle>I implemented it twice</SubTitle>
     </Slide>
     <Slide bgColor="alternate">
